@@ -175,7 +175,7 @@
             type: 'GET',            // HTTP method (GET, POST, etc.)
             dataType: '',           // Data type expected from server
             success: function() {
-                $('#response').html(engine.message);  // Display server response
+                $('#response').html();  // Display server response
             },
             error: function(error) {
                 console.log(error);  // Log any errors to the console
